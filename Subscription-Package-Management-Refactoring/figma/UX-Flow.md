@@ -140,5 +140,63 @@ The customer can review the selected package and understand:
 
 ---
 
-### Screen 8 — Package Selection &
+### Screen 8 — Package Selection & Subscription
 
+The customer selects the package and proceeds through the subscription/payment journey.
+
+---
+
+### Screen 9 — Subscription Activated
+
+After successful payment, the subscription becomes active and the customer receives the applicable package entitlements.
+
+---
+
+# 5. UX Principle
+
+> **Complexity belongs in configuration; simplicity belongs in the customer experience.**
+
+The Backoffice provides the flexibility required by the business.
+
+The customer-facing experience presents only the information needed to understand and select a subscription.
+
+---
+
+# 6. Figma Prototype
+
+The Figma prototype will demonstrate the key product flows rather than the complete online library experience.
+
+### Prototype Scope
+
+**Backoffice**
+
+Package Management → Create/Edit → Pricing & Duration → Benefits → Expiry & Priority → Review → Activate
+
+**Customer**
+
+Package Listing → Package Details → Select Package → Payment → Subscription Activated
+
+---
+
+## Figma Link
+
+**Prototype:** [Add Figma link]
+
+---
+
+## Product Traceability
+
+| Product Requirement     | UX Representation           |
+| ----------------------- | --------------------------- |
+| Package creation        | Create/Edit Package         |
+| Pricing                 | Pricing configuration       |
+| Duration                | Package configuration       |
+| Benefits                | Benefits configuration      |
+| Expiry                  | Expiry configuration        |
+| Priority                | Priority configuration      |
+| Activation              | Review / Activate           |
+| Frontend display        | Package Listing             |
+| Customer selection      | Package Details / Selection |
+| Subscription activation | Activation confirmation     |
+
+This creates traceability from **Product Requirements → UX Flow → Figma Prototype**.
